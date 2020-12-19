@@ -1,4 +1,4 @@
-''' This program reads the mass of water and the temperature change
+'''This program reads the mass of water and the temperature change
 from a user and uses it to compute the total amount of energy
 that needs to be added or removed to achieve the desired temperature change
 and also compute the cost of heating the water'''
@@ -25,4 +25,4 @@ kwh = (2.77778e-7)*1
 bill = kwh*8.9
 
 # Print the energy needed
-print("The cost to boil the water is {0:.2f} cent".format(bill)) 
+print("The cost to boil the water is {0:.2f} cent".format(bill))
