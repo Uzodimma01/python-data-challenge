@@ -8,10 +8,10 @@ word = input("Please enter a word: ")
 # Between an uppercase and lowercase letter
 string = word.lower()
 
-# Create an empty dictionary to store the key 
+# Create an empty dictionary to store the keys and its values
 liste = {}
 
-# Iterate through word
+# Iterate through string
 for character in string:
     if character in liste:
 
@@ -21,5 +21,7 @@ for character in string:
 
         # Add the key to the dictionary and assign it a value of 1
         liste[character]=1
+
 # Display the number of unique characters in the word                  
 print("{} has {} unique characters".format(word, len(liste)))
+
